@@ -9,6 +9,7 @@ Logger::Logger()
                              {
         for(;;)
         { 
+            //
             // 原日志系统设计存在缺陷
             // //获取当前 的日期,然后取日志信息,写入响应的日志文件当中
             // time_t now = time(nullptr);
